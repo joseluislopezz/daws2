@@ -12,7 +12,7 @@ if($_REQUEST)
 {
 	$x1=$_GET['codigo'];
 	$username 	= $_REQUEST['username'];
-	$query = "select * from catalogo where contenido = '".strtolower($username)."'";
+	$query = "select * from `` where `` = '".strtolower($username)."'";
 	sleep(1);
 	$results = $bd->consulta($query) or die($x1);
 
@@ -27,7 +27,7 @@ if($_REQUEST)
 	{
 
 
-$sql="UPDATE `catalogo` SET `contenido` = '$username' WHERE `catalogo`.`id_catalogo` = $x1";
+$sql="UPDATE `` SET `` = '$username' WHERE ``.`` = $x1";
 $bd->consulta($sql);
 		echo '<div class="form-box">
                         <div class="alert alert-success alert-dismissable">
