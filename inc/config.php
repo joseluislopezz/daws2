@@ -1,10 +1,10 @@
 <?php
 //contraseña
-$passs="";
+$passs="9136f63a41ffd4fdc19b8ef5c9836991bed764a3a16947ee81b7567400a50675";
 //nombre de base de datos
-$bd="pagos";
+$bd="dl5j629urk17";
 //nombre de usuario
-$user="root";
+$user="orpklkwlswjzpi";
 //nombre de la empresa
 $empresa="Daws";
 
@@ -22,7 +22,7 @@ $config = array(
 	"emailadmin"=>"",
 	"emailenvios"=>"",
 	"nombreenvios"=>"Daws?",
-	"servidor"=>"localhost",
+	"servidor"=>"ec2-50-19-254-63.compute-1.amazonaws.com",
 	"basedatos"=>"$bd",
 	"usuario"=>"$user",
 	"pass"=>"$passs",
