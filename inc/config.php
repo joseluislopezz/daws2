@@ -22,7 +22,7 @@ $config = array(
 	"emailadmin"=>"",
 	"emailenvios"=>"",
 	"nombreenvios"=>"Daws?",
-	"servidor"=>"ec2-50-19-254-63.compute-1.amazonaws.com",
+	"servidor"=>"localhost",
 	"basedatos"=>"$bd",
 	"usuario"=>"$user",
 	"pass"=>"$passs",
@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="localhost";
+	$dbhost="ec2-50-19-254-63.compute-1.amazonaws.com";
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";
