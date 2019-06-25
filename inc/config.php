@@ -1,10 +1,10 @@
 <?php
 //contraseña
-$passs="9136f63a41ffd4fdc19b8ef5c9836991bed764a3a16947ee81b7567400a50675";
+$passs="";
 //nombre de base de datos
-$bd="dl5j629urk17";
+$bd="pagos";
 //nombre de usuario
-$user="orpklkwlswjzpi";
+$user="root";
 //nombre de la empresa
 $empresa="Daws";
 
@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="ec2-50-19-254-63.compute-1.amazonaws.com";
+	$dbhost="localhost;
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";
