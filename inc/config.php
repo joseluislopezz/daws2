@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="localhost;
+	$dbhost="localhost";
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";
