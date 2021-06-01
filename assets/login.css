@@ -7,21 +7,10 @@ Login page
 
 
 .login{
-    background: black;
-     background-image: url(fondo.jpg);
-   background-position:left;
-
-   background-size:70% cover;
-
-    
-    background-repeat: no-repeat;
-    background-position-x: -355px;
-    background-position-y: -139px;
-   height: 100%!important;
- 
-
-
-
+  background: black;
+  background-image: url(../img/openStore.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
 }
 
 .login .logo {
