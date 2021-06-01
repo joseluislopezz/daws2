@@ -17,7 +17,7 @@ if($_REQUEST)
 	$results = $bd->consulta($query) or die($x1);
 
 
-	if($bd->numeroFilas() > 0) // no disponible
+	if($bd->numeroFilas() > 0) // no disponible 
 	{
 
 
