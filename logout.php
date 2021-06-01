@@ -15,5 +15,6 @@ if($_SESSION['c3valida']) {
 	session_destroy();
 	session_write_close();
 	header ("Location: login.php");
+	// Cerrar session
 }
 ?>
