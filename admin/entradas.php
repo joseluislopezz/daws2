@@ -22,7 +22,7 @@ else
 
 
 
-$fecha_actual = date ("Y-m-d"); //Obtener la fecha
+$fecha_actual = date ("Y-m-d"); //Obtener la fecha 
 $hora = date("H:i:s",time()-3600);
         if (isset($_GET['eliminar'])) {
 
