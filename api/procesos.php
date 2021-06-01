@@ -9,7 +9,7 @@ include '../inc/config.php';
 
 
 
-if (isset($_POST) && count($_POST)>0)
+if (isset($_POST) && count($_POST)>0) 
 {
 	if ($db->connect_errno) 
 	{
