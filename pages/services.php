@@ -178,10 +178,8 @@ hr{
                          <a href="?mod=view_cart" style=" float: right;"  title="Revisar carro para generar factura ">Generar factura</a>
 </h3>
 
-
-
             <a href="#" class="cart-box " id="cart-info" title="ver carrito">
-            <?php
+            <?php 
             if(isset($_SESSION["products"])){
                 echo count($_SESSION["products"]);
 
