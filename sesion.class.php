@@ -24,6 +24,6 @@ class sesion {
       $_SESSION = array();
       session_destroy ();
   }
-}
+} //Cerrar sesion
 
 ?>
