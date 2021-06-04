@@ -1,10 +1,10 @@
 <?php
 //contraseña
-$passs="test";
+$passs="root";
 //nombre de base de datos
 $bd="pagos";
 //nombre de usuario
-$user="test123";
+$user="root";
 //nombre de la empresa
 $empresa="Daws";
 
