@@ -22,7 +22,7 @@ $config = array(
 	"emailadmin"=>"",
 	"emailenvios"=>"",
 	"nombreenvios"=>"Daws?",
-	"servidor"=>"db",
+	"servidor"=>"mysql",
 	"basedatos"=>"$bd",
 	"usuario"=>"$user",
 	"pass"=>"$passs",
@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="db";
+	$dbhost="mysql";
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";

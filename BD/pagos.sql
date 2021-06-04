@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `accounts`
 --
 CREATE DATABASE IF NOT EXISTS pagos; 
-USE pagps;
+USE pagos;
 CREATE TABLE `accounts` (
   `id_accounts` int(11) NOT NULL,
   `name_accounts` varchar(400) NOT NULL COMMENT 'nombre de la cuenta ',
