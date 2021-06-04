@@ -1,10 +1,10 @@
 <?php
 //contraseña
-$passs="root";
+$passs="devpass";
 //nombre de base de datos
 $bd="pagos";
 //nombre de usuario
-$user="root";
+$user="devuser";
 //nombre de la empresa
 $empresa="Daws";
 
@@ -22,7 +22,7 @@ $config = array(
 	"emailadmin"=>"",
 	"emailenvios"=>"",
 	"nombreenvios"=>"Daws?",
-	"servidor"=>"localhost",
+	"servidor"=>"db",
 	"basedatos"=>"$bd",
 	"usuario"=>"$user",
 	"pass"=>"$passs",
@@ -33,7 +33,7 @@ $config = array(
 	); ?>
 
 <?php
-	$dbhost="localhost";
+	$dbhost="db";
 	$dbname="$bd";
 	$dbuser="$user";
 	$dbpass="$passs";
